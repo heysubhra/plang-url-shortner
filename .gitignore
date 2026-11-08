@@ -10,6 +10,7 @@ env/
 .env
 .env.*
 !.env.example
+.openrouter.key
 
 # Runtime data
 data/*.sqlite3
