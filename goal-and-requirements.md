@@ -2,10 +2,8 @@
 id: local-url-shortener-goal
 type: goal-and-requirements
 title: Local URL Shortener Goal and Requirements
-status: draft
-tags:
-  - product
-  - requirements
+status: active
+tags: [product, requirements]
 ---
 
 # Local URL Shortener
