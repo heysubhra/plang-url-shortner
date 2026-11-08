@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "peasyai": {
+      "command": "peasyai-mcp",
+      "args": [],
+      "exposure": "deferred"
+    }
+  }
+}
