@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/*.sqlite3
+data/*.sqlite3-*
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
