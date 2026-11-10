@@ -40,6 +40,6 @@ The covered source is `docs/designs/statechart.md`, specifically its runtime, br
 
 The model abstracts away password hashing and regex details, email normalization, cookie signing, exact HTML/error text, SQLite internals, concurrent transaction linearization, process crashes, and the future Python implementation. Add focused tests or a conformance model for those boundaries when code exists.
 
-Sync commit: `uncommitted verification model` (the statechart and verification artifacts have not yet been committed; after the first verification commit, replace this line with that commit hash and confirm the check again).
+Sync commit: `87725b0` (the commit whose model and configuration were confirmed by the final clean TLC run). Move this forward only after confirming that the verification still describes the covered statechart at the new commit.
 
 After any change to the covered statechart or its transition semantics, use `/maintain-formal-verification-skill` to compare the sync commit, update the model and bounds if needed, rerun this skill, and only then advance the sync commit.
